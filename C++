@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  int num;
+  cout<<"Enter The Number: "<<endl;
+  cin>> num;
+      if(num>0){
+        if(num%2 ==0){
+           cout<<"positive and even"<<endl;
+        }else
+        cout<<"positive and odd"<<endl;
+
+      }else { if(num%2 ==0){
+          cout<< "nagative and even"<<endl;
+      }else cout<<"nagative and odd"<<endl;}
+}
