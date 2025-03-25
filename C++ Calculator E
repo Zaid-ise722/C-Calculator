@@ -1,0 +1,21 @@
+#include <iostream> 
+#include<string> 
+using namespace std;
+
+int x;
+string y;
+
+
+int main()
+{
+    int x;
+    int y;
+ cout << "\n \t please enter the value of x:";
+ cin >> x;
+ cout << endl << "\t please enter the value of y:";
+ cin >> y;
+ cout << "\n \t you have entered  " << x << "    " << y<<endl<<endl;
+cout << "\n \t you have entered  " << ::x << "    " << ::y<<endl<<endl;
+ return 0;
+}
+//لەبەر ئەوەی رخمان نەدایتە ڵاین ٥و٦ لۆیە سفڕیان لۆ دئتەوە 
