@@ -1,0 +1,18 @@
+#include <iostream>
+#include<string>
+using namespace std;
+
+char x='A';
+string y="Ahmad";
+int main()
+{
+    int x;
+    int y;
+ cout << "\n \t please enter the value of x:";
+ cin >> x;
+ cout << endl << "\t please enter the value of y:";
+ cin >> y;
+ cout << "\n \t you have entered  " << x << "    " << y<<endl<<endl;
+cout << "\n \t you have entered  " << ::x << "    " << ::y<<endl<<endl;
+ return 0;
+}
